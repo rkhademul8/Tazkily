@@ -1,0 +1,33 @@
+.connect-content h1{
+    color: #20184E;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+}
+.connect-content p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #666666;
+}
+
+.connect-content button{
+    background-color: #F8F2FF;
+    height: 55px;
+    width: 239px;
+    left: 785.999755859375px;
+    top: 1444.0001220703125px;
+    border-radius: 40px;
+    padding: 16px, 32px, 16px, 32px;
+    border: 0;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #8828FF;
+
+
+
+}
