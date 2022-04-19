@@ -4,9 +4,9 @@
 }
 
 
-/* --------------- connect part style ----------------------*/
+/* --------------- connect, chat-feature  part style ----------------------*/
 
-.connect-content h1{
+.text-h1{
     color: #20184E;
     font-family: 'Space Grotesk';
     font-style: normal;
@@ -14,7 +14,7 @@
     font-size: 48px;
 }
 
-.connect-content p{
+.text-p{
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 400;
@@ -38,6 +38,67 @@
 }
 
 
+/* 
+------------- ellipse cirlce style */
+
+.ellipse_circle_parent{
+    background-image: url(image/ellipse/Ellipse\ 261.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 300px;
+
+}
+
+.ellipse_circle{
+
+      background-image: url(image/ellipse/Ellipse\ 251.png);
+      background-repeat: no-repeat;
+      background-position: right;
+      height: 300px;
+}
+
+
+
+/* chart part style  */
+
+.chat1{
+    width: 50%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.chat-text-h1{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #20184E;
+}
+
+.chat-text-p{
+    font-family: "Nunito";
+    font-size: 16px;
+    
+    text-align: left;
+    color:#ADABB7;
+}
+.chat-text-time{
+    font-family: "Nunito";
+    font-size: 12px;
+   
+    text-align: left;
+    color:#ADABB7;
+}
+
+.chat-2{
+    width: 100%;
+    margin-left: 25%;
+}
+
+
+
+
+
 
 
 
@@ -45,18 +106,27 @@
 
 @media only screen and (max-width: 600px) {
     
-    .connect-content h1{ 
+    .text-h1{ 
         font-size: 28px;
         text-align: left;
         margin-bottom: 22px;  
     }
 
-    .connect-content p{
+    .text-p{
         font-size: 16px;
         font-weight: 400;
         line-height: 26px;
         letter-spacing: 0em;
         margin-bottom: 30px;
+    }
+
+    .chat1{
+        width: 100%;
+       
+    }
+    .chat-2{
+        
+        margin-left: 0;
     }
 
   }
